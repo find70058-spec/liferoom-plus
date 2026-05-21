@@ -1,0 +1,12 @@
+{
+  "name": "liferoom-plus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.93.0"
+  }
+}
