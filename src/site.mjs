@@ -5,7 +5,7 @@ export const site = {
   author: "liferoom",
   adsenseClient: "ca-pub-3935732085325115",
   adsenseSlot: "7602926919",
-  assetVersion: "20260521-plus-1"
+  assetVersion: "20260521-plus-growth-fund"
 };
 
 export const categories = {
@@ -20,5 +20,9 @@ export const categories = {
   life: {
     name: "생활정보",
     description: "일상에서 바로 확인해야 하는 생활 행정 정보를 다룹니다."
+  },
+  finance: {
+    name: "금융·투자",
+    description: "정책금융, 투자상품, 금융 서류 발급 안내를 정리합니다."
   }
 };

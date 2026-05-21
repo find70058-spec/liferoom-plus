@@ -78,5 +78,45 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">국가장학금은 학자금 지원구간 산정에 시간이 걸릴 수 있어 조기 신청이 유리합니다. 신청 후에는 반드시 신청완료 내역, 서류제출 상태, 가구원동의 상태를 차례로 확인하고, 대학별 등록금 고지서 반영 또는 사후 지급 일정은 소속 대학 장학 공지를 함께 확인하시기 바랍니다.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "growth-fund-documents-quick-guide",
+    category: "finance",
+    title: "국민성장펀드 가입 서류발급 안내: 신청 전 빠른 확인",
+    description: "국민성장펀드 가입 전 확인해야 할 ISA 가입용 소득확인증명서 발급번호와 준비 절차를 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-21",
+    modifiedAt: "2026-05-21",
+    readingTime: "1분 미만",
+    tags: [
+      "국민성장펀드 가입",
+      "국민성장펀드 서류",
+      "국민성장펀드 가입 서류발급 안내",
+      "ISA 가입용 소득확인증명서",
+      "홈택스 소득확인증명서"
+    ],
+    ctas: [
+      {
+        label: "가입서류 상세보기 ❯❯",
+        url: "https://info.liferoom-j.com/posts/growth-fund-documents-guide/"
+      },
+      {
+        label: "홈택스 서류발급 ❯❯",
+        url: "https://www.hometax.go.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">국민성장펀드 가입을 준비한다면 가장 먼저 확인해야 할 부분은 신청 가능 기간과 제출 서류입니다. 특히 판매사 신청 화면에서 ISA 가입용 소득확인증명서 또는 발급번호를 요구할 수 있어, 미리 홈택스에서 확인해두면 가입 과정이 훨씬 빠릅니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">국민성장펀드 가입 서류 빠른 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">국민참여형 국민성장펀드는 정책형 펀드 성격의 투자상품으로, 가입 전 본인 확인과 소득 요건 확인 절차가 함께 진행될 수 있습니다. 2026년 5월 22일부터 6월 11일까지 판매가 예정된 만큼, 신청 전 필요한 서류를 먼저 준비하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">서류명만 보면 일반 소득금액증명원과 헷갈릴 수 있지만, 가입 화면에서 필요한 서류는 ISA 가입용 소득확인증명서 또는 해당 발급번호인 경우가 많습니다. 발급 경로와 제출 전 체크사항은 상세 안내 페이지에서 표와 FAQ로 정리했습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">국민성장펀드 소득확인증명서 발급 전 체크</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">온라인 가입은 발급번호 입력으로 처리되는 경우가 있고, 판매사나 지점 접수는 출력본 또는 PDF 파일을 요구할 수 있습니다. 또한 투자상품이므로 원금손실 가능성, 수수료, 환매 조건, 가입 한도는 반드시 판매사와 공식 안내를 함께 확인해야 합니다.</p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 국민성장펀드 가입 서류발급 안내, 홈택스 발급 절차, 제출 전 체크리스트를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
