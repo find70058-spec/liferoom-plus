@@ -118,5 +118,45 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 국민성장펀드 가입 서류발급 안내, 홈택스 발급 절차, 제출 전 체크리스트를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "growth-fund-income-limit-quick-guide",
+    category: "finance",
+    title: "국민성장펀드 가입 소득조건과 투자한도 안내",
+    description: "국민성장펀드 가입 전 확인해야 할 소득조건, 전용계좌 가입 자격, 투자한도와 소득공제 구간을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-21",
+    modifiedAt: "2026-05-21",
+    readingTime: "1분 미만",
+    tags: [
+      "국민성장펀드 소득조건",
+      "국민성장펀드 투자한도",
+      "국민성장펀드 가입조건",
+      "국민성장펀드 소득공제",
+      "국민성장펀드 전용계좌"
+    ],
+    ctas: [
+      {
+        label: "소득조건 상세보기 ❯❯",
+        url: "https://info.liferoom-j.com/posts/growth-fund-income-limit-guide/"
+      },
+      {
+        label: "금융위 안내 확인 ❯❯",
+        url: "https://www.fsc.go.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">국민성장펀드 가입을 검토한다면 소득조건과 투자한도를 먼저 확인해야 합니다. 전용계좌로 세제혜택을 받으려면 19세 이상 또는 15세 이상 근로소득자 요건을 충족해야 하며, 최근 3년 중 금융소득종합과세 대상이었다면 전용계좌 가입이 제한될 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">국민성장펀드 가입 소득조건 빠른 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">국민성장펀드는 누구나 같은 방식으로 가입하는 상품이 아닙니다. 세제혜택을 받는 전용계좌, 서민 전용 물량, 일반계좌에 따라 확인할 조건이 다릅니다. 특히 서민 전용 물량은 근로소득 5,000만 원 이하 또는 종합소득 3,800만 원 이하 기준이 적용될 수 있어 본인의 소득 구분을 먼저 확인하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">투자한도도 중요합니다. 전용계좌 기준 투자한도는 5년 동안 2억 원이며, 1인당 연간 1억 원 한도로 안내됩니다. 세제혜택 없이 일반계좌로 가입하는 경우에는 연간 3,000만 원 한도가 적용될 수 있습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">국민성장펀드 투자한도와 소득공제 체크</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">소득공제는 투자금 전액에 같은 비율이 적용되는 구조가 아니라 구간별로 달라집니다. 3,000만 원까지 40%, 3,000만 원 초과 5,000만 원까지 20%, 5,000만 원 초과 7,000만 원까지 10%가 적용되어 최대 1,800만 원 공제가 안내됩니다.</p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 국민성장펀드 가입 소득조건, 서민 전용 기준, 전용계좌와 일반계좌 투자한도 차이를 표로 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
