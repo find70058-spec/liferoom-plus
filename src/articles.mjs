@@ -177,7 +177,7 @@ export const articles = [
     ],
     ctas: [
       {
-        label: "온라인 신청방법 보기 ❯❯",
+        label: "공익직불금 온라인신청",
         url: "https://info.liferoom-j.com/posts/public-direct-payment-2026-online-guide/"
       },
       {
