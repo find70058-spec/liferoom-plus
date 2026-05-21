@@ -24,5 +24,9 @@ export const categories = {
   finance: {
     name: "금융·투자",
     description: "정책금융, 투자상품, 금융 서류 발급 안내를 정리합니다."
+  },
+  education: {
+    name: "교육·자격",
+    description: "온라인 교육, 의무교육, 직무별 필수교육 신청 정보를 정리합니다."
   }
 };

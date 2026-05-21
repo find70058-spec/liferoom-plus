@@ -198,5 +198,45 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 2026 공익직불금 신청기간, 온라인 신청방법, 방문 신청 대상, 필요서류와 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "kohi-required-training-quick-guide",
+    category: "education",
+    title: "코히의무교육 온라인수강신청 직무별 필수교육 안내",
+    description: "KOHI 보건복지배움인에서 코히의무교육 온라인수강신청 방법과 직무별 필수교육 확인 기준을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-21",
+    modifiedAt: "2026-05-21",
+    readingTime: "1분 미만",
+    tags: [
+      "코히의무교육",
+      "KOHI 의무교육",
+      "코히 온라인수강신청",
+      "보건복지배움인",
+      "직무별 필수교육"
+    ],
+    ctas: [
+      {
+        label: "직무별 교육 확인 ❯❯",
+        url: "https://info.liferoom-j.com/posts/kohi-required-training-guide/"
+      },
+      {
+        label: "KOHI 수강신청 ❯❯",
+        url: "https://edu.kohi.or.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">코히의무교육은 보건복지 분야 종사자가 직무와 기관 기준에 따라 이수해야 하는 온라인 교육을 확인할 때 많이 이용하는 과정입니다. KOHI 보건복지배움인에 로그인한 뒤 교육과정을 검색하고, 본인 직무에 맞는 의무교육 또는 필수교육을 선택해 수강신청할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">코히의무교육 온라인수강신청 빠른 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">온라인수강신청은 회원가입 또는 로그인 후 교육과정 검색, 과정 상세 확인, 수강신청, 내 강의실 학습 순서로 진행됩니다. 과정명은 노인인권, 긴급복지지원, 학대신고의무자, 기타필수교육 등으로 나뉠 수 있어 소속기관에서 요구하는 교육명을 먼저 확인하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">같은 보건복지 분야라도 노인복지시설, 장애인복지시설, 사회복지시설, 의료기관, 정신건강 관련 기관 등 직무별 필수교육이 다를 수 있습니다. 수강 전 기관 담당자에게 올해 이수해야 할 과정명과 인정 기준을 확인해야 수료증 제출 오류를 줄일 수 있습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">코히 직무별 필수교육 수료증 체크</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">교육을 모두 들은 뒤에는 내 강의실 또는 수료증 메뉴에서 수료 여부를 확인하고 PDF로 저장해두는 것이 좋습니다. 기관 평가, 지도점검, 내부 교육 이력 제출 시 수료증을 요구하는 경우가 있기 때문입니다.</p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 코히의무교육 온라인수강신청 절차, 직무별 필수교육 예시, 수료증 발급과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
