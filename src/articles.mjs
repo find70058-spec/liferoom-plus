@@ -238,5 +238,45 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 코히의무교육 온라인수강신청 절차, 직무별 필수교육 예시, 수료증 발급과 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "local-election-2026-polling-place-quick-guide",
+    category: "life",
+    title: "2026 지방선거 투표소 조회 위치안내",
+    description: "2026년 제9회 전국동시지방선거 투표소 조회 방법과 사전투표소, 선거일 지정 투표소 위치 확인 방법을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-22",
+    modifiedAt: "2026-05-22",
+    readingTime: "1분 미만",
+    tags: [
+      "2026 지방선거 투표소 조회",
+      "지방선거 투표소 위치",
+      "내 투표소 찾기",
+      "사전투표소 찾기",
+      "제9회 전국동시지방선거"
+    ],
+    ctas: [
+      {
+        label: "내 투표소 조회",
+        url: "https://info.liferoom-j.com/posts/local-election-2026-polling-place-guide/"
+      },
+      {
+        label: "선관위 투표소 찾기",
+        url: "https://www.nec.go.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">2026 지방선거 투표소 조회는 선거일 전에 꼭 확인해야 합니다. 제9회 전국동시지방선거 선거일은 2026년 6월 3일 수요일이며, 선거일에는 주소지 기준으로 정해진 지정 투표소에서만 투표할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">2026 지방선거 투표소 조회 빠른 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">투표소 위치는 중앙선거관리위원회 홈페이지, 투표안내문, 지방자치단체 안내, 포털의 투표소 찾기 서비스를 통해 확인할 수 있습니다. 사전투표는 2026년 5월 29일부터 5월 30일까지 진행되며, 사전투표 기간에는 전국 사전투표소 어디에서나 투표할 수 있습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">가장 헷갈리는 부분은 사전투표소와 선거일 투표소의 차이입니다. 사전투표는 가까운 사전투표소를 이용할 수 있지만, 선거일 본투표는 본인에게 지정된 투표소를 확인한 뒤 방문해야 합니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">지방선거 투표소 위치안내 준비물 체크</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">투표소에 갈 때는 주민등록증, 운전면허증, 여권, 모바일 신분증 등 본인 확인이 가능한 신분증을 준비해야 합니다. 주소지 변경이나 투표소 변경이 있을 수 있으므로 출발 전 최신 위치를 다시 확인하는 것이 좋습니다.</p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 2026 지방선거 투표소 조회 방법, 사전투표소와 선거일 투표소 차이, 준비물과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
