@@ -318,5 +318,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 2026 지방선거 사전투표소 위치 조회 방법, 준비물, 관내·관외 사전투표 차이와 FAQ를 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "high-oil-support-eeum-card-balance-quick-guide",
+    category: "support",
+    title: "고유가지원금 이음카드 잔액조회방법",
+    description: "고유가 지원금을 이음카드로 받은 경우 인천e음 앱에서 잔액과 사용내역을 빠르게 확인하는 방법을 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-23",
+    modifiedAt: "2026-05-23",
+    readingTime: "1분 미만",
+    tags: [
+      "고유가지원금 이음카드",
+      "이음카드 잔액조회",
+      "고유가 지원금 잔액조회",
+      "인천e음 잔액조회",
+      "고유가 피해지원금 사용내역"
+    ],
+    ctas: [
+      {
+        label: "잔액조회 바로가기",
+        url: "https://info.liferoom-j.com/posts/high-oil-support-eeum-card-balance-guide/"
+      },
+      {
+        label: "인천e음 확인하기",
+        url: "https://www.incheoneum.or.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">고유가지원금을 이음카드로 받았다면 가장 먼저 확인해야 할 것은 지급금이 실제로 들어왔는지와 남은 잔액입니다. 인천e음 앱에 카드가 등록되어 있으면 홈 화면 또는 내 지갑 메뉴에서 충전 잔액, 캐시, 사용내역을 확인할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">고유가지원금 이음카드 잔액조회 빠른 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">잔액조회는 보통 인천e음 앱 실행 후 본인인증, 카드 선택, 내 지갑 또는 이용내역 확인 순서로 진행합니다. 지원금은 사용기한과 사용처 제한이 있을 수 있으므로 잔액만 보지 말고 최근 결제내역과 사용 가능 가맹점도 함께 확인하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">스마트폰 앱 사용이 어렵거나 카드 등록이 되지 않는 경우에는 인천e음 고객센터 또는 공식 홈페이지 안내를 통해 확인해야 합니다. 카드번호와 개인정보 입력이 필요한 조회는 반드시 공식 경로에서만 진행하세요.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">이음카드 지원금 사용내역 체크</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">고유가 지원금은 지급 방식과 지역별 운영 기준에 따라 사용처가 달라질 수 있습니다. 아래 상세보기에서 이음카드 잔액조회 순서, 앱이 안 될 때 확인방법, 사용기한과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
