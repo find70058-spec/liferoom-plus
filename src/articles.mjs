@@ -396,5 +396,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 남해군 경남도민 생활지원금 대상, 온라인신청 방법, 지급일 확인, 지급내역 조회와 사용처 주의사항을 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "jinju-gyeongnam-living-support-online-quick-guide",
+    category: "support",
+    title: "진주시 경남도민 생활지원금 온라인신청 지급일 안내",
+    description: "진주시 경남도민 생활지원금 온라인신청 기간, 지급일, 대상자와 지급내역 조회 방법을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-26",
+    modifiedAt: "2026-05-26",
+    readingTime: "1분 미만",
+    tags: [
+      "진주시 경남도민 생활지원금",
+      "경남도민지원금 신청",
+      "진주시 생활지원금 온라인신청",
+      "진주시 생활지원금 지급일",
+      "경남도민지원금 지급내역 조회"
+    ],
+    ctas: [
+      {
+        label: "경남도민지원금 신청",
+        url: "https://info.liferoom-j.com/posts/jinju-gyeongnam-living-support-online-guide/"
+      },
+      {
+        label: "지급내역 조회",
+        url: "https://www.xn--289aoyu1d8seu1nelhv8k40fb46a.kr/index.do?siteCd=001"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">진주시 경남도민 생활지원금은 경상남도 도민에게 1인당 10만 원을 지급하는 생활 안정 지원금입니다. 온라인신청은 경남도민 생활지원금 공식 누리집에서 진행할 수 있으며, 신청 완료 후 지급수단에 따라 지역사랑상품권, 선불카드, 카드 포인트 등으로 받을 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">진주시 경남도민 생활지원금 온라인신청</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">신청기간은 2026년 4월 30일부터 6월 30일까지로 안내됩니다. 진주시에 주소를 둔 도민이라면 신청 전 본인인증 수단과 지급수단을 준비하고, 온라인 신청이 어렵다면 주소지 읍면동 행정복지센터 방문 신청도 함께 확인하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">신청 후 지급일은 지급수단과 대상자 검증 절차에 따라 달라질 수 있습니다. 지급내역 조회 화면에서 신청 상태, 지급 여부, 사용 가능 금액을 확인하고 사용기한인 2026년 7월 31일 전까지 사용해야 합니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">진주시 생활지원금 지급내역 조회</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 진주시 경남도민 생활지원금 대상, 온라인신청 방법, 지급일 확인, 지급내역 조회와 사용처 주의사항을 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
