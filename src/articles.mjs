@@ -42,27 +42,27 @@ export const articles = [
   {
     slug: "national-scholarship-2026-second-semester-first-round",
     category: "support",
-    title: "2026 국가장학금 2학기 1차 신청 대상, 신청방법, 필요서류 안내",
-    description: "2026년 2학기 국가장학금 1차 신청기간과 신청 대상, 한국장학재단 신청방법, 서류제출과 가구원동의 일정을 정리했습니다.",
+    title: "2026년 2학기 국가장학금 1차 신청기간 신청대상 제출서류 안내",
+    description: "2026년 2학기 국가장학금 1차 신청기간, 신청대상, 제출서류와 가구원동의 일정을 빠르게 정리했습니다.",
     author: "Lsejin",
     publishedAt: "2026-05-21",
     modifiedAt: "2026-05-21",
     readingTime: "1분 미만",
     tags: [
-      "2026 국가장학금 2학기 1차 신청",
-      "국가장학금 신청 대상",
-      "국가장학금 필요서류",
+      "2026년 2학기 국가장학금 1차 신청기간",
+      "국가장학금 신청대상",
+      "국가장학금 제출서류",
       "한국장학재단 국가장학금",
       "국가장학금 가구원동의"
     ],
     ctas: [
       {
-        label: "국가장학금 신청 ❯❯",
-        url: "https://www.kosaf.go.kr/"
+        label: "국가장학금 신청",
+        url: "https://info.liferoom-j.com/posts/national-scholarship-2026-second-semester-first-round/"
       },
       {
-        label: "서류제출 확인 ❯❯",
-        url: "https://www.kosaf.go.kr/"
+        label: "제출서류 안내",
+        url: "https://info.liferoom-j.com/posts/national-scholarship-2026-second-semester-first-round/"
       }
     ],
     html: `
