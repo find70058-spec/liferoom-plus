@@ -591,5 +591,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 배당금 계산식, 세전·세후 금액 확인, 배당조회 서비스 이용절차, 지급일 확인 방법을 표와 FAQ로 정리했습니다.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "private-taxi-transfer-training-reservation-schedule-quick-guide",
+    category: "life",
+    title: "개인택시 양수교육 예약 일정 신청방법 및 교육과정",
+    description: "개인택시 양수교육 예약 일정 확인, 신청방법, 5일 과정과 2일 경력자 과정의 핵심 차이를 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-27",
+    modifiedAt: "2026-05-27",
+    readingTime: "1분 미만",
+    tags: [
+      "개인택시 양수교육 예약",
+      "개인택시 양수교육 일정",
+      "개인택시 양수교육 신청방법",
+      "개인택시 양수교육 교육과정",
+      "교통안전체험교육센터"
+    ],
+    ctas: [
+      {
+        label: "양수교육 신청",
+        url: "https://info.liferoom-j.com/posts/private-taxi-transfer-training-reservation-schedule-guide/"
+      },
+      {
+        label: "교육일정 보기",
+        url: "https://tslms.kotsa.or.kr/main.do"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">개인택시 양수교육은 개인택시면허 양수를 준비하는 사람이 한국교통안전공단 교통안전체험교육센터에서 확인해야 하는 주요 교육입니다. 교육예약은 정해진 접수기간과 교육일정에 따라 진행되므로, 신청 전 월간·연간 교육일정과 예약 가능 여부를 먼저 확인하는 것이 좋습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">개인택시 양수교육 예약 바로가기</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">교통안전체험교육센터 홈페이지에는 개인택시 양수교육 5일 과정과 경력자 대상 2일 과정, 교육일정 확인, 교육예약 메뉴가 운영됩니다. 접수 시작 시점에는 신청자가 몰릴 수 있으므로 회원가입과 로그인, 지원자격 확인을 미리 준비해 두는 것이 유리합니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">교육과정은 대상자 요건에 따라 달라질 수 있습니다. 일반 과정은 5일 과정으로 안내되고, 일정 경력 요건을 갖춘 경우 경력자 2일 과정을 확인할 수 있습니다. 정확한 대상 여부는 공식 홈페이지의 과정 안내와 공고를 기준으로 확인하세요.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">개인택시 양수교육 일정 확인 방법</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 교육일정 확인 위치, 예약 신청 순서, 5일 과정과 2일 과정 차이, 준비사항과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
