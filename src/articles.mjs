@@ -552,5 +552,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 라오스 킵 원화 계산법, 10만·50만·100만 킵 계산 예시, 환전 시 주의사항과 FAQ를 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "samsung-electronics-dividend-calculator-payment-date-quick-guide",
+    category: "finance",
+    title: "삼성전자 배당금 계산기 배당금액 조회 지급일 안내",
+    description: "삼성전자 배당금 계산 방법과 배당금액 조회, 지급일 확인 절차를 공식 배당조회 서비스 기준으로 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-27",
+    modifiedAt: "2026-05-27",
+    readingTime: "1분 미만",
+    tags: [
+      "삼성전자 배당금 계산기",
+      "삼성전자 배당조회",
+      "삼성전자 배당금액 조회",
+      "삼성전자 배당금 지급일",
+      "삼성전자 배당조회 서비스"
+    ],
+    ctas: [
+      {
+        label: "삼성전자 배당조회",
+        url: "https://info.liferoom-j.com/posts/samsung-electronics-dividend-calculator-payment-date-guide/"
+      },
+      {
+        label: "배당금 계산기",
+        url: "https://dividend.samsung.com/landing"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">삼성전자 배당금 계산기는 보유 주식 수와 주당 배당금을 기준으로 예상 배당금액을 확인할 때 필요합니다. 배당은 배당기준일에 주식을 보유한 주주를 대상으로 하며, 실제 지급 여부와 금액은 삼성전자 공시 및 공식 배당조회 서비스에서 확인하는 것이 가장 정확합니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">삼성전자 배당금액 조회 바로가기</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">공식 배당조회 서비스에 접속하면 회원가입과 본인확인, 주주인증을 거쳐 마이페이지에서 배당내역을 조회할 수 있습니다. 증권사에 등록된 주소와 배당기준일 보유 여부가 확인되어야 하므로, 조회 전 보유 계좌와 주소 정보를 함께 확인해 두는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">예상 배당금은 보유주식수에 주당 배당금을 곱해 계산합니다. 실제 입금액은 배당소득세 원천징수와 계좌 처리 시점에 따라 달라질 수 있으니, 지급일 전후에는 공식 서비스와 증권사 입금내역을 함께 확인하세요.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">삼성전자 배당금 지급일 확인 방법</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 배당금 계산식, 세전·세후 금액 확인, 배당조회 서비스 이용절차, 지급일 확인 방법을 표와 FAQ로 정리했습니다.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
