@@ -474,5 +474,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 통영시 경남도민 생활지원금 대상, 온라인신청 방법, 지급일 확인, 지급내역 조회와 사용처 주의사항을 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "housing-lease-report-certificate-online-quick-guide",
+    category: "life",
+    title: "주택임대차계약신고필증 발급 재발급 온라인 발급신청방법",
+    description: "주택임대차계약신고필증 온라인 발급, 재발급, 신고이력 조회와 PDF 저장 방법을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-27",
+    modifiedAt: "2026-05-27",
+    readingTime: "1분 미만",
+    tags: [
+      "주택임대차계약신고필증 발급",
+      "주택임대차계약신고필증 재발급",
+      "임대차신고필증 온라인 발급",
+      "부동산거래관리시스템 신고필증",
+      "주택임대차신고 필증 출력"
+    ],
+    ctas: [
+      {
+        label: "신고필증 발급",
+        url: "https://info.liferoom-j.com/posts/housing-lease-report-certificate-online-guide/"
+      },
+      {
+        label: "재발급 신청",
+        url: "https://rtms.molit.go.kr/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">주택임대차계약신고필증은 주택 임대차계약 신고가 정상 접수·처리되었음을 확인하는 문서입니다. 온라인으로 신고했거나 이미 신고가 완료된 계약이라면 부동산거래관리시스템에서 신고이력을 조회한 뒤 신고필증을 출력하거나 PDF로 저장할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">주택임대차계약신고필증 온라인 발급</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">보증금 6천만 원 또는 월세 30만 원을 초과하는 주택 임대차계약은 계약일로부터 30일 이내 신고 대상이 될 수 있습니다. 신고가 완료되면 신고필증 출력 버튼이 활성화되며, 분실했더라도 같은 이력조회 메뉴에서 다시 출력할 수 있습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">신고필증이 바로 보이지 않는다면 아직 담당 관청 처리가 완료되지 않았거나, 공동신고 전자서명 절차가 남아 있을 수 있습니다. 계약자 정보와 물건지 주소, 신고번호를 확인한 뒤 조회해야 합니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">임대차신고필증 재발급 PDF 저장</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 주택임대차계약신고필증 발급 대상, 온라인 신청 순서, 재발급 조회 방법, 방문 발급 준비물과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
