@@ -513,5 +513,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 주택임대차계약신고필증 발급 대상, 온라인 신청 순서, 재발급 조회 방법, 방문 발급 준비물과 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "laos-kip-krw-exchange-calculator-quick-guide",
+    category: "finance",
+    title: "라오스 환율 원화 계산기 실시간 환율조회",
+    description: "라오스 킵을 원화로 계산하는 방법과 실시간 환율조회, 여행 전 환전 체크포인트를 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-27",
+    modifiedAt: "2026-05-27",
+    readingTime: "1분 미만",
+    tags: [
+      "라오스 환율",
+      "라오스 킵 원화 계산기",
+      "킵 원화 환율",
+      "실시간 라오스킵 환율",
+      "LAK KRW 계산기"
+    ],
+    ctas: [
+      {
+        label: "킵 ⇄ 원화 계산기",
+        url: "https://info.liferoom-j.com/posts/laos-kip-krw-exchange-calculator-guide/"
+      },
+      {
+        label: "실시간 라오스킵 환율",
+        url: "https://www.google.com/search?q=%EB%9D%BC%EC%98%A4%EC%8A%A4+%ED%82%B5+%ED%99%98%EC%9C%A8%EA%B3%84%EC%82%B0%EA%B8%B0&oq=%EB%9D%BC%EC%98%A4%EC%8A%A4+%ED%82%B5+%ED%99%98%EC%9C%A8%EA%B3%84%EC%82%B0%EA%B8%B0&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIKCAMQABiABBiiBDIHCAQQABjvBTIGCAUQRRg90gEJNDgxN2owajE1qAIIsAIB8QXfZql_DeIkCPEF32apfw3iJAg&sourceid=chrome&ie=UTF-8"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">라오스 환율 원화 계산기는 라오스 여행이나 송금 전 킵(LAK)을 한국 원화(KRW)로 빠르게 환산할 때 필요합니다. 라오스 킵은 금액 단위가 커서 10만 킵, 50만 킵, 100만 킵처럼 계산하는 경우가 많으므로 실시간 환율을 기준으로 확인하는 것이 좋습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">라오스 킵 원화 계산기 바로 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">환율은 매일 변동되기 때문에 고정 금액으로 외우기보다 실시간 라오스킵 환율을 검색한 뒤, 필요한 금액을 직접 입력해 계산하는 방식이 안전합니다. 여행 현지 환전소, 은행 고시환율, 카드 결제 환율은 서로 다를 수 있습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">현지에서는 킵뿐 아니라 달러, 바트가 함께 언급되는 경우도 있어 최종 결제 통화와 거스름돈 단위를 꼭 확인해야 합니다. 특히 큰 단위 지폐를 사용할 때는 0 하나 차이로 체감 금액이 크게 달라질 수 있습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">실시간 라오스킵 환율조회 주의사항</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세보기에서 라오스 킵 원화 계산법, 10만·50만·100만 킵 계산 예시, 환전 시 주의사항과 FAQ를 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
