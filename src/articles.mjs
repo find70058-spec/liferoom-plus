@@ -630,5 +630,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 교육일정 확인 위치, 예약 신청 순서, 5일 과정과 2일 과정 차이, 준비사항과 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "nowon-surakhyu-forest-reservation-price-location-quick-guide",
+    category: "life",
+    title: "노원 수락휴 자연휴양림 사전예약 가격 위치안내",
+    description: "노원 수락휴 자연휴양림 사전예약 방법, 이용요금 확인, 객실과 위치 정보를 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-28",
+    modifiedAt: "2026-05-28",
+    readingTime: "1분 미만",
+    tags: [
+      "노원 수락휴 자연휴양림",
+      "수락휴 사전예약",
+      "수락휴 이용요금",
+      "수락휴 위치",
+      "노원 자연휴양림 예약"
+    ],
+    ctas: [
+      {
+        label: "사전예약 바로가기",
+        url: "https://info.liferoom-j.com/posts/nowon-surakhyu-forest-reservation-price-location-guide/"
+      },
+      {
+        label: "이용요금 자세히",
+        url: "https://www.nowon.kr/surakhyu/web/main/main"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">노원 수락휴 자연휴양림은 서울 노원구 수락산 자락에서 숲속 숙박과 체험을 이용할 수 있는 휴양 공간입니다. 객실 예약은 사전예약 방식으로 확인해야 하며, 예약일정과 요금은 공식 홈페이지의 예약 메뉴에서 먼저 확인하는 것이 좋습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">노원 수락휴 사전예약 바로가기</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">공식 홈페이지에는 예약일정 및 요금, 숙박 예약하기, 체험프로그램 예약하기 메뉴가 구분되어 있습니다. 객실은 트리하우스, 2인실, 4인실, 6인실 등으로 안내되므로 방문 인원과 원하는 일정에 맞춰 예약 가능 여부를 확인해야 합니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">수락휴 위치는 서울시 노원구 덕릉로145길 108이며, 대중교통 이용 시 4호선 불암산역에서 도보 또는 버스 환승 후 이동할 수 있습니다. 주말과 성수기에는 예약 경쟁이 있을 수 있어 일정 확인을 먼저 해두는 편이 안전합니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">수락휴 이용요금과 위치 확인</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 객실별 예약 확인 방법, 이용요금 확인 위치, 오시는 길, 예약 전 체크사항과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
