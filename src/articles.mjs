@@ -669,5 +669,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 객실별 예약 확인 방법, 이용요금 확인 위치, 오시는 길, 예약 전 체크사항과 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "kohi-mandatory-training-application-job-required-quick-guide",
+    category: "education",
+    title: "코히 의무교육 수강신청방법 직무별 필수교육 안내",
+    description: "KOHI 보건복지배움인에서 코히 의무교육 수강신청방법과 직무별 필수교육, 교육일정 확인 방법을 빠르게 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-05-28",
+    modifiedAt: "2026-05-28",
+    readingTime: "1분 미만",
+    tags: [
+      "코히 의무교육",
+      "코히 수강신청",
+      "KOHI 보건복지배움인",
+      "직무별 필수교육",
+      "코히 교육일정"
+    ],
+    ctas: [
+      {
+        label: "수강신청 바로가기",
+        url: "https://info.liferoom-j.com/posts/kohi-mandatory-training-application-job-required-guide/"
+      },
+      {
+        label: "교육일정 자세히",
+        url: "https://edu.kohi.or.kr/index.do"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">코히 의무교육은 보건복지 분야 종사자가 소속기관과 담당 직무에 따라 확인해야 하는 필수교육입니다. KOHI 보건복지배움인에서는 교육과정 검색, 수강신청, 연간교육일정 확인, 수료증 발급까지 진행할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">코히 의무교육 수강신청 바로가기</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">수강신청은 회원가입 또는 로그인 후 교육과정명을 검색하고, 과정 상세에서 교육대상과 수료기준을 확인한 뒤 진행합니다. 노인복지, 사회복지, 보건교육, 필수의무교육 등 과정구분이 나뉘므로 기관에서 요구한 정확한 과정명을 먼저 확인하는 것이 중요합니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">교육일정은 교육소식의 연간교육일정과 과정별 모집상태를 함께 확인해야 합니다. 모집예정, 모집중, 모집마감 상태가 달라질 수 있고, 이러닝·대면·라이브 과정에 따라 신청 방식도 다를 수 있습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">코히 직무별 필수교육 확인 방법</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 수강신청 절차, 직무별 필수교육 확인표, 교육일정 조회 방법, 수료증 발급과 FAQ를 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
