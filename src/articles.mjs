@@ -708,5 +708,44 @@ export const articles = [
       <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 수강신청 절차, 직무별 필수교육 확인표, 교육일정 조회 방법, 수료증 발급과 FAQ를 한 번에 확인해보세요.</p>
       <!-- CONTENT END 1 -->
     `
+  },
+  {
+    slug: "divorce-camp-3000won-couple-instagram-quick-guide",
+    category: "life",
+    title: "2026년 6월 4일 방송된 이혼숙려캠프에 나온 3000원 부부 인스타그램 바로가기",
+    description: "이혼숙려캠프 88회 3000원 부부로 소개된 임승일 최설화, 단짠커플 인스타그램 바로가기와 방송 정보를 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-06-05",
+    modifiedAt: "2026-06-05",
+    readingTime: "1분 미만",
+    tags: [
+      "이혼숙려캠프 3000원 부부",
+      "임승일 최설화 인스타",
+      "단짠커플 인스타",
+      "이혼숙려캠프 88회",
+      "3000원 부부 인스타그램"
+    ],
+    ctas: [
+      {
+        label: "임승일 최설화 인스타",
+        url: "https://info.liferoom-j.com/posts/divorce-camp-3000won-couple-instagram-guide/"
+      },
+      {
+        label: "단짠커플 인스타",
+        url: "https://www.instagram.com/dzz._.couple/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">2026년 6월 4일 방송된 JTBC 이혼숙려캠프 88회에는 결혼을 앞둔 예비 부부가 출연했고, 방송과 보도에서 이른바 3000원 부부로 소개됐습니다. 방송 이후 임승일 최설화 인스타그램, 단짠커플 인스타 바로가기를 찾는 분들이 많아 공식 계정 확인 경로를 정리했습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">이혼숙려캠프 3000원 부부 인스타 바로가기</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">단짠커플 인스타그램은 방송 이후 근황, 커플 일상, 공지 등을 확인하려는 분들이 찾는 계정입니다. 사칭 계정이나 비슷한 아이디가 있을 수 있으니 아래 바로가기 링크로 접속해 계정명을 확인하는 것이 좋습니다.</p>
+      {{CTA_BUTTONS}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">방송 내용은 예능 프로그램에서 공개된 장면과 언론 보도를 바탕으로 관심을 모았지만, 개인 계정 방문 시에는 댓글 예절과 개인정보 보호를 지키는 것이 중요합니다. 출연자에 대한 단정적 표현이나 확인되지 않은 주장 공유는 피하는 편이 좋습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">임승일 최설화 단짠커플 계정 확인</h2>
+      {{MIDDLE_AD}}
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">아래 상세 안내에서 이혼숙려캠프 방송일, 3000원 부부로 불린 이유, 단짠커플 인스타 링크, 계정 확인 시 주의사항을 한 번에 확인해보세요.</p>
+      <!-- CONTENT END 1 -->
+    `
   }
 ];
