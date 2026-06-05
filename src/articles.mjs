@@ -732,7 +732,7 @@ export const articles = [
       },
       {
         label: "단짠커플 인스타",
-        url: "https://www.instagram.com/dzz._.couple/"
+        url: "https://tv.jtbc.co.kr/event/pr10011730/pm10069416"
       }
     ],
     html: `
