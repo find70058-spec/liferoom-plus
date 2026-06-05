@@ -732,7 +732,7 @@ export const articles = [
       },
       {
         label: "단짠커플 인스타",
-        url: "https://tv.jtbc.co.kr/event/pr10011730/pm10069416"
+        url: "https://info.liferoom-j.com/posts/divorce-camp-3000won-couple-instagram-guide/"
       }
     ],
     html: `
