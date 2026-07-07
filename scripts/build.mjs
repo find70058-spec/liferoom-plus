@@ -61,6 +61,7 @@ function prepareArticleHtml(article) {
 function layout({ title, description, path, body, type = "website", jsonLd = "" }) {
   const url = absoluteUrl(path);
   const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
+  const imageUrl = absoluteUrl(site.defaultImage);
   return `<!DOCTYPE html>
 <html lang="ko-KR" prefix="og: https://ogp.me/ns#">
 <head>
@@ -76,9 +77,13 @@ function layout({ title, description, path, body, type = "website", jsonLd = "" 
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${esc(url)}">
 <meta property="og:site_name" content="${esc(site.name)}">
+<meta property="og:image" content="${esc(imageUrl)}">
+<meta property="og:image:secure_url" content="${esc(imageUrl)}">
+<meta property="og:image:type" content="image/jpeg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(pageTitle)}">
 <meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${esc(imageUrl)}">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:500,400,700&display=fallback">

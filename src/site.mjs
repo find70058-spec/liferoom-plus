@@ -3,9 +3,10 @@ export const site = {
   domain: "https://plus.liferoom-j.com",
   description: "세금, 지원금, 생활 행정 정보를 빠르게 확인하는 정보 안내 사이트입니다.",
   author: "liferoom",
+  defaultImage: "/assets/og-image.jpg",
   adsenseClient: "ca-pub-3935732085325115",
   adsenseSlot: "7602926919",
-  assetVersion: "20260707-ai-html-style-fix"
+  assetVersion: "20260707-plus-og-image"
 };
 
 export const categories = {
