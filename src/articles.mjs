@@ -748,4 +748,41 @@ export const articles = [
       <!-- CONTENT END 1 -->
     `
   }
+,
+  {
+    slug: "application-method-quick-guide",
+    category: "support",
+    title: "기후동행카드 환급 신청방법 빠른 확인 바로가기",
+    description: "기후동행카드 환급 신청방법를 빠르게 확인할 수 있도록 대상, 신청 경로, 준비사항을 요약했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-07-07",
+    modifiedAt: "2026-07-07",
+    readingTime: "1분 미만",
+    tags: [
+      "기후동행카드 환급 신청방법",
+      "기후동행카드 환급 신청방법 신청방법",
+      "기후동행카드 환급 신청방법 필요서류",
+      "기후동행카드 환급 신청방법 바로가기",
+      "기후동행카드 환급 신청방법 조회"
+    ],
+    ctas: [
+      {
+        label: "환급신청 바로가기",
+        url: "https://info.liferoom-j.com/posts/application-method-guide/"
+      },
+      {
+        label: "공식 홈페이지",
+        url: "https://info.liferoom-j.com/posts/application-method-guide/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">기후동행카드 환급 신청방법를 빠르게 확인하려는 분들을 위해 신청 대상, 확인 경로, 준비해야 할 내용을 핵심만 정리했습니다. 자세한 표와 FAQ는 아래 안내 페이지에서 이어서 확인할 수 있습니다.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">기후동행카드 환급 신청방법 바로 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">기후동행카드 환급 신청방법는 공식 안내 페이지에서 최신 기준을 확인하는 것이 가장 중요합니다. 신청 기간, 대상 조건, 제출서류, 조회 경로는 시기별로 달라질 수 있으므로 먼저 본인에게 해당되는 항목을 확인한 뒤 진행하는 것이 좋습니다.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">환급신청 바로가기 전 확인사항</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">환급신청 바로가기 또는 공식 홈페이지를 진행하기 전에는 본인 인증 수단, 신청자 정보, 제출 대상 서류를 미리 준비해 두면 처리 시간을 줄일 수 있습니다. 모바일보다 PC에서 더 안정적으로 처리되는 민원도 있으니 오류가 반복되면 PC 환경을 함께 확인하세요.</p>
+      <!-- CONTENT END 1 -->
+    `
+  }
 ];
