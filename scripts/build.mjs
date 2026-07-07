@@ -45,6 +45,19 @@ function renderCtas(article) {
     .join("")}</div>`;
 }
 
+function renderQuickCheck(article) {
+  const target = article.ctas?.[0]?.url;
+  if (!target) return "";
+  return `<div class="cta-stack cta-stack-bottom"><a href="${esc(target)}" rel="noopener">바로확인하기</a></div>`;
+}
+
+function prepareArticleHtml(article) {
+  const cleaned = article.html
+    .replaceAll("{{CTA_BUTTONS}}", "")
+    .replaceAll("{{MIDDLE_AD}}", "");
+  return cleaned.replace(/(<h2\b[\s\S]*?<\/h2>)/i, `$1${renderAd("[plus-liferoom-middle]")}`);
+}
+
 function layout({ title, description, path, body, type = "website", jsonLd = "" }) {
   const url = absoluteUrl(path);
   const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
@@ -132,12 +145,9 @@ function renderArticle(article) {
       }
     ]
   })}</script>`;
-  const bodyHtml = article.html
-    .replace("{{CTA_BUTTONS}}", renderCtas(article))
-    .replace("{{MIDDLE_AD}}", renderAd("[plus-liferoom-middle]"));
+  const bodyHtml = prepareArticleHtml(article);
 
   const body = `<div class="container">
-  ${renderAd("[plus-liferoom-middle]")}
   <article class="article-card">
     <header class="entry-header">
       <h1 class="entry-title">${esc(article.title)}</h1>
@@ -145,8 +155,10 @@ function renderArticle(article) {
         <img class="avatar" alt="" src="https://secure.gravatar.com/avatar/869f0011c6e5c60b2508ca40df2e025a6628a35be167620280cc13225fe8506d?s=40&amp;d=mm&amp;r=g" width="40" height="40">
         <span>글쓴이 ${esc(article.author)} / ${esc(article.publishedAt)}</span>
       </div>
+      <p class="entry-description">${esc(article.description)}</p>
+      ${renderCtas(article)}
     </header>
-    <div class="entry-content">${bodyHtml}</div>
+    <div class="entry-content">${renderAd("[plus-liferoom-middle]")}${bodyHtml}${renderQuickCheck(article)}</div>
   </article>
 </div>
 <nav class="post-navigation" aria-label="게시물">

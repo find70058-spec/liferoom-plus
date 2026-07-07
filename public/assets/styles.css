@@ -70,11 +70,18 @@ a {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
   color: var(--brand-strong);
   font-size: 13px;
   font-weight: 600;
   line-height: 1.45;
+}
+
+.entry-description {
+  margin: 0 0 16px;
+  color: #333;
+  font-size: 17px;
+  line-height: 1.85;
 }
 
 .avatar {
@@ -102,7 +109,7 @@ a {
 }
 
 .cta-stack {
-  margin: 10px 0;
+  margin: 14px 0 24px;
 }
 
 .cta-stack a {
@@ -120,6 +127,11 @@ a {
   border-radius: 12px;
   white-space: nowrap;
   cursor: pointer;
+}
+
+.cta-stack-bottom {
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .post-navigation {
