@@ -217,6 +217,64 @@ a {
   font-size: 15px;
 }
 
+.entry-content p {
+  margin: 16px 0;
+  color: #333;
+  line-height: 1.9;
+}
+
+.entry-content h2 {
+  border-left: 5px solid #2563eb;
+  padding: 14px 0 14px 18px;
+  margin: 40px 0 20px;
+  color: #1a1a1a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.entry-content ol {
+  margin: 16px 0 24px 20px;
+  color: #333;
+  line-height: 1.9;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 22px 0 30px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.info-table th,
+.info-table td {
+  border: 1px solid var(--line);
+  padding: 12px 14px;
+  vertical-align: top;
+}
+
+.info-table th {
+  background: #f3f6fb;
+  color: var(--ink);
+  font-weight: 700;
+  text-align: left;
+}
+
+.entry-content details {
+  border: 1px solid var(--line);
+  background: var(--white);
+  margin: 10px 0;
+  padding: 14px 16px;
+}
+
+.entry-content summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 700;
+}
+
 @media (max-width: 544px) {
   body {
     font-size: 15px;

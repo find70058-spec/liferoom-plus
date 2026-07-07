@@ -5,7 +5,7 @@ export const site = {
   author: "liferoom",
   adsenseClient: "ca-pub-3935732085325115",
   adsenseSlot: "7602926919",
-  assetVersion: "20260707-title-top-ad"
+  assetVersion: "20260707-ai-html-style-fix"
 };
 
 export const categories = {
