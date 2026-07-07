@@ -52,6 +52,10 @@ a {
   margin: 8px 0;
 }
 
+.article-card > .ad-block:first-child {
+  margin: 0 0 28px;
+}
+
 .article-card {
   margin: 10px auto;
   padding: 40px;

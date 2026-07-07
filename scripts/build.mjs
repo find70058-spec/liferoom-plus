@@ -149,6 +149,7 @@ function renderArticle(article) {
 
   const body = `<div class="container">
   <article class="article-card">
+    ${renderAd("[plus-liferoom-middle]")}
     <header class="entry-header">
       <h1 class="entry-title">${esc(article.title)}</h1>
       <div class="entry-meta">
@@ -158,7 +159,7 @@ function renderArticle(article) {
       <p class="entry-description">${esc(article.description)}</p>
       ${renderCtas(article)}
     </header>
-    <div class="entry-content">${renderAd("[plus-liferoom-middle]")}${bodyHtml}${renderQuickCheck(article)}</div>
+    <div class="entry-content">${bodyHtml}${renderQuickCheck(article)}</div>
   </article>
 </div>
 <nav class="post-navigation" aria-label="게시물">
