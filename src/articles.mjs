@@ -822,4 +822,41 @@ export const articles = [
       <!-- CONTENT END 1 -->
     `
   }
+,
+  {
+    slug: "sejong-airport-bus-reservation-quick-guide",
+    category: "life",
+    title: "세종 인천공항 공항버스 승차권 예매 빠른 확인",
+    description: "세종에서 인천공항으로 가는 공항버스 승차권 예매 전 시간표, 탑승 정류장, 도착 터미널 확인사항을 정리했습니다.",
+    author: "Lsejin",
+    publishedAt: "2026-07-07",
+    modifiedAt: "2026-07-07",
+    readingTime: "1분 미만",
+    tags: [
+      "세종 인천공항 공항버스 예매",
+      "세종 공항버스 시간표",
+      "세종 인천공항 버스 승차권 예약",
+      "세종 인천공항 버스 정류장",
+      "인천공항 버스 예매"
+    ],
+    ctas: [
+      {
+        label: "공항버스 시간표",
+        url: "https://info.liferoom-j.com/posts/sejong-airport-bus-reservation-guide/"
+      },
+      {
+        label: "승차권 예약 바로가기",
+        url: "https://info.liferoom-j.com/posts/sejong-airport-bus-reservation-guide/"
+      }
+    ],
+    html: `
+      <p><!--no toc--></p>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">세종에서 인천공항으로 이동할 때는 공항버스 시간표와 승차권 예매 가능 여부를 먼저 확인하는 것이 좋습니다. 출발 정류장, 탑승일, 도착 터미널을 잘못 고르면 현장에서 다시 확인해야 하므로 예매 전에 핵심 항목만 빠르게 점검하세요.</p>
+      <h2 id="toc-0" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">세종 인천공항 공항버스 시간표 확인</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">항공편 출발 시간에 맞춰 인천공항에는 여유 있게 도착해야 합니다. 새벽·주말·성수기에는 좌석이 빨리 마감될 수 있고, 배차 시간이 변경될 수 있으니 탑승일 기준 최신 시간표를 확인한 뒤 승차권을 예약하세요.</p>
+      <h2 id="toc-1" style="border-left: 5px solid #2563eb; padding: 14px 0 14px 18px; margin: 40px 0 20px 0; font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.4; letter-spacing: -0.02em;">승차권 예약 전 확인할 항목</h2>
+      <p style="margin: 16px 0; line-height: 1.9; color: #333;">출발지는 세종고속시외버스터미널 또는 정부세종청사 등 실제 탑승 정류장을 기준으로 선택해야 합니다. 도착지는 이용 항공사의 터미널에 맞춰 인천공항 1터미널 또는 2터미널을 고르고, 모바일 승차권 사용 가능 여부와 현장 발권 필요 여부도 함께 확인하면 좋습니다.</p>
+      <!-- CONTENT END 1 -->
+    `
+  }
 ];
